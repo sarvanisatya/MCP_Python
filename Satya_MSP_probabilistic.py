@@ -131,6 +131,7 @@ D=[]  # Non dominated set
 for i in range(0,9):
     D.append([])
     D[i].append([i,10000,10000,10000,[]])
+D[0] = 0
 D[s][0]=[s,0,0,0,[s]]
 
 # initialized source labels to zeros.
